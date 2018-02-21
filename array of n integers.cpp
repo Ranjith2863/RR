@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	int n,k,i,sum=0;
 	cout<<"Enter two numbers\n";
