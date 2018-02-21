@@ -1,18 +1,27 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include <stdio.h>
+
+int main()
 {
-	clrscr();
-	char ch;
-	cout<<"Enter a character: ";
-	cin>>ch;
-	if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
-	{
-		cout<<ch<<" is an alphabet";
-	}
-	else
-	{
-		cout<<ch<<" is not an alphabet";
-	}
-	getch();
+    char ch;
+
+    /* Input character from user */
+    printf("Enter any character: ");
+    scanf("%c", &ch);
+
+
+    /* Alphabet check */
+    if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+    {
+        printf("'%c' is alphabet.", ch);
+    }
+    else if(ch >= '0' && ch <= '9')
+    {
+        printf("'%c' is digit.", ch);
+    }
+    else 
+    {
+        printf("'%c' is special character.", ch);
+    }
+
+    return 0;
 }
