@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 	int i,num,fact=1;
 	cout<<"Enter a number\n";
