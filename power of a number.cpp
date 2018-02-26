@@ -7,10 +7,8 @@ int main() {
 	cin>>base>>power;
 	cout<<"Base:"<<base<<"\n"<<"Power:"<<power<<"\n";
 	while(power>0)
-	{
-		result*=base;
-		power--;
-	}
+	{result*=base;
+		power--;}
 	cout<<"Result"<<result;
 	return 0;
 }
