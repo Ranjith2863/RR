@@ -15,8 +15,10 @@ cout<<"Enter the string : "<<endl;
 
   cout<<"Enter the value : "<<endl;
 cin>>n;
-if(n<str.length())
+
+  if(n<str.length())
 
 cout<<str.substr(str.length()-n)<<endl;
-return 0;
+
+  return 0;
 }
