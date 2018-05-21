@@ -5,12 +5,15 @@ int main()
 {
 
 string str;
-int n;
+
+  int n;
 
 cout<<"Enter the string : "<<endl;
-cin>>str;
 
-cout<<"Enter the value : "<<endl;
+  cin>>str;
+
+
+  cout<<"Enter the value : "<<endl;
 cin>>n;
 if(n<str.length())
 
